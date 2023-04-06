@@ -33,9 +33,7 @@ public class MiniCalculadora extends JFrame {
 	private JButton btnDivi;
 	private double operacion = 0;
 
-	/**
-	 * Create the frame.
-	 */
+	//Clase principal
 	public MiniCalculadora() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(700, 100, 267, 295);
@@ -185,7 +183,6 @@ public class MiniCalculadora extends JFrame {
 
 		@Override
 		public void focusLost(FocusEvent e) {
-			// TODO Auto-generated method stub
 
 		}
 	}

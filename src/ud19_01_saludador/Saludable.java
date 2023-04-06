@@ -11,9 +11,7 @@ public class Saludable extends JFrame {
 	private JPanel contentPane;
 	private JTextField txtNombre;
 
-	/**
-	 * Cremos el frame principal
-	 */
+	//Clase SAludable
 	public Saludable() {
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -50,6 +48,7 @@ public class Saludable extends JFrame {
 			}
 		});
 
+		//Hace que se vea el JPane
 		setVisible(true);
 	}
 }
